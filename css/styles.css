@@ -1,0 +1,43 @@
+:root {
+    --darkCyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --veryDarkBlue: hsl(212, 21%, 14%);
+    --darkGrayishBlue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --montserrat: 'Montserrat', sans-serif;
+    --fraunces: 'Fraunces', serif;
+    --a: hsl(228, 45%, 44%); 
+}
+body {
+    background-color: var(--cream);
+    font-family: var(--montserrat);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+.card {
+    background-color: var(--white);
+    border-radius: 10px ;
+    display: flex;
+    margin: 8vw auto;
+    width: 50%;
+}
+.image{
+    background-image: url(./src/img/image-product-desktop.jpg);
+    height: 100%;
+    width: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.info {
+    align-self: center;
+    height: 100%;
+    justify-self: center;
+    margin: 15px 15px;
+    width: 50%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: var(--a)}
